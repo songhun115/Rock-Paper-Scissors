@@ -1,0 +1,66 @@
+body,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.game__container {
+  position: relative;
+}
+
+.user__container {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  position: absolute;
+}
+
+.user__container > li > img {
+  width: 200px;
+  cursor: pointer;
+}
+.container {
+  justify-content: center;
+  display: flex;
+}
+.winer {
+  margin-top: 300px;
+}
+h1 {
+  text-align: center;
+}
+.bg {
+  position: relative;
+}
+.bg > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+h1 {
+  color: white;
+}
+.winer {
+  color: red;
+  z-index: 2;
+}
+.lobot {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+.human {
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
